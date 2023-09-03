@@ -1,0 +1,209 @@
+/* global */
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("Imagenes/fondo.jpg");
+  background-size: cover;
+  background-color: #041933;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+body {
+  cursor: url("Imagenes/Mouse_normal.png"), auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Encabezado y pie de pagina*/
+#Encabezado {
+  background: #08405e;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #6ce0ec;
+  box-shadow: 0px 5px 10px rgb(108, 224, 236);
+}
+
+.Encabezado {
+  float: left;
+  color: #8be3ec;
+  text-shadow: 2px 2px 10px #6ce0ec;
+  font-size: 35px;
+}
+
+#piedepagina {
+  background-color: #041933;
+  text-align: center;
+  color: #8be3ec;
+  padding: 10px;
+  font-size: 15px;
+  bottom: 0;
+}
+
+/* Cuerpo del la web */
+
+/* Explicacion */
+.Explicacion {
+  background-color: #8be3ec;
+  color: #041933;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 10px;
+  border: 2px inset #041933;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Exh4 {
+  font-size: 25px;
+}
+
+.ExP {
+  font-size: 20px;
+}
+
+
+/* Mensaje Lucio */
+.Cajademensajel {
+  overflow: hidden;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.Contenidomensajel {
+  position: relative;
+  float: left;
+  background-color: #2ec4d4;
+  padding: 10px;
+  border-radius: 10%;
+  color: #041933;
+  box-shadow: 5px 0px 10px rgb(46, 195, 212);
+  max-width: 500px;
+}
+
+.imagenperfill {
+  float: left;
+  padding-right: 10px;
+  border-radius: 50%;
+  height: 5%;
+  width: 5%;
+}
+
+/* Mensaje brune */
+.Cajademensajeb {
+  overflow: hidden;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+
+.Contenidomensajeb {
+  position: relative;
+  float: right;
+  background-color: #0c948c;
+  padding: 10px;
+  border-radius: 10%;
+  color: #17283d;
+  box-shadow: -5px 0px 10px rgb(12, 148, 140);
+  max-width: 500px;
+}
+
+/* Opciones */
+#Opciones {
+  overflow: hidden;
+  background-color: #08405e;
+  padding: 30px;
+  border: 3px inset #063147;
+}
+
+#Opcion1 {
+  float: left;
+  background-color: #041933;
+  margin-right: 5%;
+  margin-left: 2.5%;
+  padding: 10px;
+  max-width: 45%;
+  max-height: 900px;
+  border: 3px inset #17283d;
+  transition: 0.5s;
+}
+
+#Opcion2 {
+  float: left;
+  background-color: #17283d;
+  padding: 10px;
+  max-width: 45%;
+  max-height: 900px;
+  margin-right: 2.5%;
+  border: 3px inset #041933;
+  transition: 0.5s;
+}
+
+.linkopcion {
+  font-size: 25px;
+}
+
+/* Otros estilos */
+h4 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 15px;
+  font-style: italic;
+}
+
+h2 {
+  color: green;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #8be3ec;
+}
+
+h3 {
+  color: #aa2727;
+}
+
+/* barra lateral */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #1369d3;
+  background-color: #020a14;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0b5075;
+  box-shadow: inset 0 0 10px #1369d3;
+  border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0c567e;
+}
+
+/* Animaciones de boton */
+#Opcion1:hover {
+  background-color: #020a14;
+  font-size: 27px;
+}
+
+#Opcion2:hover {
+  background-color: #0d1622;
+  font-size: 27px;
+}
